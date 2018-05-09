@@ -65,6 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
   
   holiday_hash.collect do |season, holiday|
     puts "#{season.to_s}:"
+    holiday.collect do ||
     
   end
 end
