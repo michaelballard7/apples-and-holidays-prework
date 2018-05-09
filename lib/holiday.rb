@@ -51,6 +51,7 @@ def all_winter_holiday_supplies(holiday_hash)
       supply_check << supplies
     end
   end
+  supply_check.flatten!
 end
 
 def all_supplies_in_holidays(holiday_hash)
